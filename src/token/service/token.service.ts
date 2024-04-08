@@ -4,7 +4,7 @@ import {
   RequestTimeoutException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { AccesskeyService } from 'src/accesskey/service/accesskey.service';
+import { AccesskeyService } from '../../accesskey/service/accesskey.service';
 import { MoreThan, Repository } from 'typeorm';
 import { RequestLog } from '../entity/request-log.entity';
 
